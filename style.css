@@ -5,18 +5,18 @@ body{
 }
 .heading
 {
-font-size: 35px;
-width: 100%;
-margin: 0px;
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
 }
 a
 {   
-    
+    font-weight: bolder !important;
     border:solid;
-    font-size: 23px;
+    font-size: 20px !important;
     color: black;
-    border-radius: 20%;
-    background-color: aliceblue;
+    border-radius: 20px !important;
+    background-color: wheat;
     line-height: 3;
-    width:100px;
+    width:400px;
 }
