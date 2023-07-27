@@ -38,6 +38,7 @@ function draw(){
 function modelLoaded(){
     console.log("Model Loaded");
     status1 = true;
+    objectDetector.detect(img, gotResult);
 }
 
 function gotResult(error, results){
